@@ -63,12 +63,13 @@ a {
 #globalMenu {
 	display: flex;
 	-webkit-display: flex;
+	width: 60%;
 }
 
 #globalMenu li a {
-	display: block;
+	display: inline-block;
 	color: #fbd504;
-	padding: 24px 36px;
+	padding: 24px 30px;
 	letter-spacing: 0.05em;
 	font-weight: 500;
 }
@@ -81,10 +82,9 @@ a {
 	background-color: #010aa2;
 	color: #fff;
 	border-radius: 0.5rem;
-	box-shadow: 2px 2px #00000080;
-	padding: 11px 39px;
+	padding: 11px 30px;
 	font-weight: bold;
-	letter-spacing: 0.05em
+	letter-spacing: 0.05em;
 }
 .ticketBtn a:hover {
 	color: #fbd504;
@@ -106,7 +106,12 @@ a {
 	 transition:1s all;
 	 z-index: 1;
  }
-
+ .mvTextWrap {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
 #index_main_fv_cnt {
 	background-image: url(../images/bg_01.jpg);
 	background-size: 100%;
@@ -116,12 +121,11 @@ a {
 	height: 100vh;
 }
 h1 {
-	width: 13%;
+	width: 40%;
 	margin: 0 auto;
-	padding-top: 148px;
 }
 .share {
-width: 11%;
+width: 30%;
 margin: 0 auto;
 }
 .share li {
